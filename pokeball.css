@@ -1,0 +1,68 @@
+main {
+    height: 80vmin;
+    width: 80vmin;
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokeball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    border: 2px solid gainsboro;
+    box-shadow: 
+                inset 0vmin -4vmin 3vmin 0vmin #acacac
+                ,
+                
+                inset 0vmin -72vmin 0vmin -50vmin white
+                ,
+                
+                inset 0vmin -79vmin 0vmin -51vmin black
+                ,
+                
+                inset 1vmin 0vmin 5vmin 2vmin white
+                ,
+                
+                inset 30vmin 40vmin 12vmin 1vmin red
+                ;
+}
+
+.boton {
+    height: 18%;
+    width: 19%;
+    border-radius: 50%;
+    border: 4vmin solid black;
+    background-color: rgb(238, 238, 238);
+    margin-top: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boton_centro {
+    height: 37%;
+    width: 42%;
+    border-radius: 50%;
+    border-top: 0.5vmin solid gainsboro;
+    border-bottom: 0.5vmin solid white;
+    box-shadow: 0vmin 0vmin 1vmin 1vmin rgb(238, 238, 238);
+}
+
+.reflejo  {
+    width: 3%;
+    height: 8%;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    left: 14%;
+    transform: skew(149deg, 171deg);
+    box-shadow: 0vmin 0vmin 1vmin 2vmin white;
+}
